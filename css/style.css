@@ -1,0 +1,113 @@
+/* CSS Document */
+
+body
+{
+background-image:url(../images/uefa_champions_league6[1].jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#pie
+{
+	margin:350px 40%;
+	position:absolute;
+	z-index:100;
+}
+#search
+{
+	margin:auto;
+}
+.gallery
+{
+
+margin:300px 35%;
+position:absolute;
+z-index:100;
+	
+}
+#wrap
+{
+	background-color:green;
+	width:1000px;
+	margin:auto;
+	opacity:0.7;
+	border-radius:20px;
+}
+#header
+{
+	height:300px;
+
+}
+#header>img
+{
+	margin-top:50px;
+	margin-left:180px;
+}
+table
+{
+
+	border-color:blue;
+}
+#nav
+{
+	width:200px;
+	background-color:red;
+	height:900px;
+}
+#nav>a
+{
+	font-size:22px;
+	text-align:center;
+	line-height:30px;
+	height:30px;
+	display:block;
+	background-color:green;
+	text-decoration:none;
+	color:orange;
+	border-right:5px solid green;
+	border-left:5px solid green;
+	border-radius:20px;
+}
+#nav>a:hover
+{
+	font-weight:bolder;
+	background-color:orange;
+	color:green;
+}
+#nav>a:active
+{
+	background-color:coral;
+	color:green;
+}
+#content
+{
+	width:790px;
+	background-color:coral;
+	height:900px;
+}
+#footer
+{
+	height:60px;
+	background-color:yellow;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+#footer>a
+{
+	color:green;
+	padding-top:20px;
+	padding-left:5px;
+	width:100px;
+	float:left;
+	text-decoration:none;
+}
+#show
+{
+	overflow:hidden;
+	margin:auto;
+	padding-top:50px;
+}
